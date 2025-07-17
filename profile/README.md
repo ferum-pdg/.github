@@ -1,67 +1,113 @@
-# Ferum
-## Description
-Application permettant de générer un plan d'entrainement personnalisé en fonction:
-- des objectifs
-- du niveau actuel
-- de la disponibilité
-- du risque de blessure
+<div align="center">
+  <img src="https://github.com/ferum-pdg/landing-page/blob/develop/static/full.png" alt="Ferum Logo" width="300"/>
+  <br><br>
+  
+  [![PDG 2025](https://img.shields.io/badge/PDG-2025-4F46E5?style=for-the-badge&logo=graduation-cap)](https://heig-vd.ch)
+  [![HEIG-VD](https://img.shields.io/badge/HEIG--VD-Engineering%20School-E11D48?style=for-the-badge&logo=university)](https://heig-vd.ch)
+  [![Status](https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge&logo=rocket)](https://github.com/ferum-pdg)
+  
+  **Révolutionnez votre expérience sportive avec Ferum : le réseau social qui combine planification d'entraînements personnalisés et communauté passionnée pour vous aider à atteindre vos objectifs.**
+</div>
 
-le tout disponible sur une application mobile.
+---
 
-### Besoins fonctionnels
+## 🌟 À propos du projet
 
-1. Gestion des informations personnelles et de santé
-    - L'utilisateur doit pouvoir créer un profil avec : poids, âge, taille.
-    - L'utilisateur doit pouvoir signaler des blessures actuelles.
-    - L'utilisateur doit pouvoir indiquer son activité physique actuelle.
+Ferum est une plateforme innovante qui révolutionne l'expérience sportive en combinant :
+- 🤖 **Algorithmie** pour des entraînements personnalisés
+- 👥 **Réseau social sportif** pour une communauté active
+- ⌚ **Intégration multi-appareils** (Garmin, Apple Watch, Wahoo)
+- 📊 **Analytics avancées** pour optimiser vos performances
 
-2. Définition des objectifs
-    - L'utilisateur doit pouvoir sélectionner au moins un objectif, par exemple : perte de poids ou prise de masse et définir une échéance pour l'atteindre.
-    - L'utilisateur doit pouvoir mettre un objectif tel qu'un marathon ou semi-marathon à une date précise.
-    - L'utilisateur doit pouvoir rentrer le temps qu'il souhaiterait effectuer pour un objectif d'endurance.
+## 🏗️ Architecture & Repositories
 
-3. Evaluation du niveau actuel
-    - L'utilisateur doit être capable d'entrer son niveau.
+### 📱 Frontend & Interface
+<div align="center">
+  
+| Repository | Description | Status | Technologies |
+|------------|-------------|--------|-------------|
+| **[landing-page](https://github.com/ferum-pdg/landing-page)** | Site web de présentation | 🔄 En cours | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white) |
+| **mobile-app** | Application mobile Flutter | 🔜 À venir | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) |
 
-4. Disponibilité
-    - L'utilisateur doit pouvoir indiquer ses jours/horaires disponibles pour s'entraîner.
-    - Le système doit générer un plan adapté à cette disponibilité.
+</div>
 
-5. Connexion aux montres connectées
-    - Le sytème doit pouvoir se connecter à des montres connectées et récupérer automatiquement le nombre de pas, la fréquence cardiaque, etc.
+### 🛠️ Backend & Infrastructure
+<div align="center">
+  
+| Repository | Description | Status | Technologies |
+|------------|-------------|--------|-------------|
+| **[infrastructure](https://github.com/ferum-pdg/infrastructure)** | Configuration DevOps | 🔄 En cours | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **backend-api** | API REST Quarkus | 🔜 À venir | ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) |
 
-6. Génération du plan d'entraînement personnalisé.
-    - Le système doit générer un plan d'entraînement basé sur :
-        - Objectifs
-        - Niveau actuel
-        - Données de santé
-        - Disponibilités hebdomadaires
-        - Risque de blessure
-        - Temps souhaité par l'utilisateur
+</div>
 
-7. Suivi et ajustements
-    - L'utilisateur doit pouvoir suivre ses progrès.
-    - Le système doit pouvoir ajuster le plan en fonction de la progression réelle.
+### 📚 Documentation & Ressources
+<div align="center">
+  
+| Repository | Description | Status | 
+|------------|-------------|--------|
+| **[docs](https://github.com/ferum-pdg/docs)** | Documentation technique | 🔄 En cours |
+| **[.github](https://github.com/ferum-pdg/.github)** | Configuration organisation | ✅ Terminé |
 
-8. Rappels
-    - Le système doit pouvoir envoyer des rappels d'entraînement.
+</div>
 
-9. Interface utilisateur
-    - L'utilisateur doit avoir une vue calendrier de son plan.
-    - L'utilisateur doit pouvoir consulter les détails de chaque séance.
+## 📅 Roadmap
 
-### Besoin non-fonctionnels
+<div align="center">
 
+```mermaid
+timeline
+    title Roadmap Ferum 2025
+    
+    section Juin 2025
+        Définition des besoins : Analyse des exigences
+                                : Cahier des charges
+    
+    section Juillet 2025
+        Architecture & Design   : Conception technique
+                               : Maquettes UI/UX
+        Landing Page           : Site de présentation
+        CI/CD                  : Pipeline automatisée
+    
+    section Août 2025
+        Backend Development    : API Quarkus
+                              : Intégrations tierces
+        Mobile App            : Application Flutter
+        Intelligence Artificielle : Algorithmes d'IA
+```
 
-### Mockups
+</div>
 
+## 👥 Équipe
 
+<div align="center">
+  
+| 👨‍💻 **Dario Vasques** | 👨‍💻 **Ewan Mariaux** | 👨‍🔬 **Guillaume Trüeb** | 👨‍🔬 **Gwendal Piemontesi** |
+|:---:|:---:|:---:|:---:|
+| DevOps & Mobile | DevOps & Mobile | Project Manager & Backend | Backend & AI Specialist |
+| `Kubernetes` `Flutter` | `Kubernetes` `Flutter` | `Quarkus` `SvelteKit` | `AI/ML` `Quarkus` |
+| [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/dariovas) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/emariaux) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/grinlemon) | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/tasty-orange) |
 
-## Choix techniques
-- Landing page: SvelteKit
-- Backend: Java Enterprise, Quarkus
-- App mobile: Flutter
-- Site web: Flutter (ou SvelteKit) ->  nice to have
-- Modèle IA: à voir ce qui est existant
+</div>
 
-## Processus de travail
+## 🔗 Liens utiles
+
+<div align="center">
+  
+[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=web&logoColor=white)](http://83.228.200.235)
+[![Documentation](https://img.shields.io/badge/Documentation-0066CC?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/ferum-pdg/docs)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ferum-pdg)
+[![HEIG-VD](https://img.shields.io/badge/HEIG--VD-E11D48?style=for-the-badge&logo=university&logoColor=white)](https://heig-vd.ch)
+
+</div>
+
+---
+
+<div align="center">
+  
+**© 2025 Ferum - PDG - Projet de groupe, semestre d'été 2025**  
+*Tous droits réservés*
+
+[![Made with ❤️ by HEIG-VD students](https://img.shields.io/badge/Made%20with%20❤️%20by-HEIG--VD%20students-E11D48?style=flat-square)](https://heig-vd.ch)
+
+</div>
