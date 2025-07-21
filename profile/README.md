@@ -27,7 +27,7 @@ Ferum est une plateforme innovante qui révolutionne l'expérience sportive en c
 | Repository | Description | Status | Technologies | **Accès** |
 |------------|-------------|--------|-------------|------------|
 | **[landing-page](https://github.com/ferum-pdg/landing-page)** | Site web de présentation | ![Landing page - Build docker](https://github.com/ferum-pdg/landing-page/actions/workflows/main.yml/badge.svg) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white) | [url](http://83.228.200.235) |
-| **mobile-app** | Application mobile Flutter | 🔜 À venir | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) | - |
+| **[mobile-app](https://github.com/ferum-pdg/mobile-app)** | Application mobile Flutter | 🔄 En cours | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) | - |
 
 </div>
 
@@ -37,7 +37,7 @@ Ferum est une plateforme innovante qui révolutionne l'expérience sportive en c
 | Repository | Description | Status | Technologies |
 |------------|-------------|--------|-------------|
 | **[infrastructure](https://github.com/ferum-pdg/infrastructure)** | Configuration DevOps | - | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-| **backend-api** | API REST Quarkus | 🔜 À venir | ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) |
+| **[backend-api](https://github.com/ferum-pdg/backend-api)** | API REST Quarkus | 🔄 En cours | ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) |
 
 </div>
 
