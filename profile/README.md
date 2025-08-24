@@ -37,7 +37,7 @@ Ferum est une plateforme innovante qui révolutionne l'expérience sportive en c
 | Repository | Description | Status | Technologies |
 |------------|-------------|--------|-------------|
 | **[infrastructure](https://github.com/ferum-pdg/infrastructure)** | Configuration DevOps | - | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-| **[backend-api](https://github.com/ferum-pdg/backend-api)** | API REST Quarkus | 🔄 En cours | ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) |
+| **[backend-api](https://github.com/ferum-pdg/backend-api)** | API REST Quarkus | ![🔄 En cours](https://github.com/ferum-pdg/backend-api/actions/workflows/test-develop.yml/badge.svg) | ![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=flat-square&logo=quarkus&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) |
 
 </div>
 
