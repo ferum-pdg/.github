@@ -6,7 +6,7 @@
   [![HEIG-VD](https://img.shields.io/badge/HEIG--VD-Engineering%20School-E11D48?style=for-the-badge&logo=university)](https://heig-vd.ch)
   [![Status](https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge&logo=rocket)](https://github.com/ferum-pdg)
   
-  **Révolutionnez votre expérience sportive avec Ferum : le réseau social qui combine planification d'entraînements personnalisés et communauté passionnée pour vous aider à atteindre vos objectifs.**
+  **Révolutionnez votre expérience sportive avec Ferum : l'application qui combine planification d'entraînements personnalisés et communauté passionnée pour vous aider à atteindre vos objectifs.**
 </div>
 
 ---
