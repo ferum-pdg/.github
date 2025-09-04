@@ -26,7 +26,7 @@ Ferum est une plateforme innovante qui révolutionne l'expérience sportive en c
   
 | Repository | Description | Status | Technologies | **Accès** |
 |------------|-------------|--------|-------------|------------|
-| **[landing-page](https://github.com/ferum-pdg/landing-page)** | Site web de présentation | ![Landing page - Build docker](https://github.com/ferum-pdg/landing-page/actions/workflows/main.yml/badge.svg) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white) | [url](http://83.228.200.235) |
+| **[landing-page](https://github.com/ferum-pdg/landing-page)** | Site web de présentation | ![Landing page - Build docker](https://github.com/ferum-pdg/landing-page/actions/workflows/main.yml/badge.svg) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white) | [url](http://83.228.200.235/landing) |
 | **[mobile-app](https://github.com/ferum-pdg/mobile-app)** | Application mobile Flutter | ✅ Terminé | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) | - |
 
 </div>
